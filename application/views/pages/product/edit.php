@@ -45,7 +45,7 @@
 					</div>
 				</div>	
 				<div class="form-group row">
-					<label class="col-sm-2 col-form-label font-weight-bold">System Requirements</label>
+					<label class="col-sm-2 col-form-label font-weight-bold">Additional Info:</label>
 					<div class="col-sm-10">
 						<textarea class="form-control" id="summernote2" name="requirements" rows="3">
 							<?= $product['requirements'] ?>

@@ -24,9 +24,9 @@
 
 					<hr>
 					<div class="text-center text-info">
-						<small class="text-dark">If you need help or information, you can contact this.</small>
+						<small class="text-dark">NEED HELP OR INFORMATION? YOU CAN CONTACT THIS</small>
 						<br>
-						<small>aldoanugrah48@gmail.com | 081211680430</small>
+						<small>romanbatavi98@gmail.com | 085536xxxxxx</small>
 					</div>
 
 					<?php if($order['status'] == 'waiting') : ?>

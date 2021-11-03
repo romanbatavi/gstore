@@ -23,7 +23,7 @@ class Login extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Password', 'required|trim');
 
 		if($this->form_validation->run() == FALSE){
-			$this->session->set_flashdata('error', 'Wrong email or password.');
+			$this->session->set_flashdata('error', 'Wrong Email/Password');
 			$this->index();
 		}else{
 			$email 		= $this->input->post('email');
@@ -40,12 +40,12 @@ class Login extends CI_Controller {
 					redirect(base_url('home'));
 				}else{
 					// Jika password salah
-					$this->session->set_flashdata('error', 'Wrong email or password.');
+					$this->session->set_flashdata('error', 'Wrong Email/Password');
 					redirect('login');
 				}
 			}else{
 				// Jika email tidak sesuai
-				$this->session->set_flashdata('error', 'Wrong email or password.');
+				$this->session->set_flashdata('error', 'Wrong Email/Password');
 				redirect('login');
 			}
 		}

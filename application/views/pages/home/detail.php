@@ -36,7 +36,7 @@
 	<!-- Summary -->
 	<div class="row mt-5 mb-2">
 		<div class="col">
-			<h3 id="description">Summary</h3>
+			<h3 id="description">Summary:</h3>
 		</div>
 	</div>
 	
@@ -50,7 +50,7 @@
 	<!-- System requirements -->
 	<div class="row mt-5 mb-2">
 		<div class="col">
-			<h3>System Requirements</h3>
+			<h3>Additional Info:</h3>
 		</div>
 	</div>
 	

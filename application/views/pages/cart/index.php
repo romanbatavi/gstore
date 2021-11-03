@@ -15,7 +15,7 @@
 					<!-- Jika cart kosong -->
 					<?php if(empty($product)) : ?>
 						<div class="alert alert-warning" role="alert">
-							Oops, your cart is empty.
+							OOPS, YOUR CART IS EMPTY.
 						</div>
 					<?php else : ?>
 						<table class="table table-bordered text-center">

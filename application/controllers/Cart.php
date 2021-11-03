@@ -31,14 +31,14 @@ class Cart extends CI_Controller {
 		];
 	
 		$this->cart->addToCart($data);
-		$this->session->set_flashdata('success', 'Successfully added to your cart.');
+		$this->session->set_flashdata('success', 'SUCCESSFULLY ADDED TO YOUR CART!');
 		redirect(base_url('home/detail/' . $product_id));
 	}
 
 	public function delete($id) 
 	{		
 		$this->cart->deleteCart($id);
-		$this->session->set_flashdata('success', 'Successfully deleted product in your cart.');
+		$this->session->set_flashdata('success', 'SUCCESSFULLY DELETED PRODUCT IN YOUR CART!');
 		redirect(base_url('cart'));
 	}
 
