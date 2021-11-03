@@ -29,7 +29,7 @@
 <div class="container">
 	<div class="row mt-5">
 		<div class="col">
-			<h2 class="head">Latest releases</h2>
+			<h2 class="head">Latest Releases</h2>
 			<hr>
 		</div>
 	</div>

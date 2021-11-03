@@ -4,7 +4,7 @@ function is_login(){
 	$CI =& get_instance();
 	
 	if($CI->session->userdata('login') == FALSE){
-		$CI->session->set_flashdata('error', 'Please sign in.');
+		$CI->session->set_flashdata('error', 'Please Login');
 		redirect('login');
 	}
 }
