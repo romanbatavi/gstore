@@ -119,7 +119,5 @@ class Product extends CI_Controller {
 
 		redirect(base_url('product'));
 	}
-
 }
-
 /* End of file Product.php */
