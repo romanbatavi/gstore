@@ -21,7 +21,7 @@ class User extends CI_Controller {
 	public function delete($id) 
 	{
 		$this->user->deleteUser($id);
-		$this->session->set_flashdata('success', 'User succesfully deleted.');
+		$this->session->set_flashdata('success', 'USER SUCCESSFULLY DELETED!');
 		redirect(base_url('user'));
 	}
 

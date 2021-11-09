@@ -46,7 +46,7 @@ class Register extends CI_Controller {
 			];
 
 			$this->register->register($data);
-			$this->session->set_flashdata('success', 'Successfully registered, please login.');
+			$this->session->set_flashdata('success', 'SUCCESSFULLY REGISTERED, PLEASE LOGIN!');
 
 			redirect(base_url('login'));
 		}

@@ -58,7 +58,7 @@ class Checkout extends CI_Controller {
 				// Hapus data pada keranjang
 				$this->checkout->deleteCart($this->session->userdata('id'));
 
-				$this->session->set_flashdata('success', 'Data saved successfully.');
+				$this->session->set_flashdata('success', 'DATA SUCCESSFULLY SAVED!');
 
 				$data['title'] 	= 'Checkout Success';
 				$data['content']	= $data;

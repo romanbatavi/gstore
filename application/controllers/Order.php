@@ -35,7 +35,7 @@ class Order extends CI_Controller {
 	{
 		$data['status'] = $this->input->post('status');
 		$this->order->updateStatus($id, $data);
-		$this->session->set_flashdata('success', 'Data updated successfully.');
+		$this->session->set_flashdata('success', 'DATA SUCCESSFULLY UPDATED!');
 
 		redirect(base_url("order/detail/$id"));
 	}

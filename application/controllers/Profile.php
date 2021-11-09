@@ -44,7 +44,7 @@ class Profile extends CI_Controller {
 			];
 
 			$this->profile->updateProfile($id, $data);
-			$this->session->set_flashdata('success', 'Biodata Successfully Updated. Please log in again to update profile.');
+			$this->session->set_flashdata('success', 'BIO SUCCESSFULLY UPDATED. PLEASE LOGIN AGAIN TO UPDATE PROFILE!');
 
 			redirect(base_url('profile'));
 		}
@@ -72,7 +72,7 @@ class Profile extends CI_Controller {
 			];
 
 			$this->profile->updatePassword($id, $data);
-			$this->session->set_flashdata('success', 'Password successfully updated.');
+			$this->session->set_flashdata('success', 'PASSWORD SUCCESSFULLY UPDATED!');
 
 			redirect(base_url('profile/password'));
 		}

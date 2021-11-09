@@ -46,7 +46,7 @@ class Banner extends CI_Controller {
 			}
 
 			$this->banner->insertBanner($data);
-			$this->session->set_flashdata('success', 'Banner succesfully added.');
+			$this->session->set_flashdata('success', 'BANNER SUCCESSFULLY ADDED!');
 
 			redirect(base_url('banner'));
 		}
@@ -90,7 +90,7 @@ class Banner extends CI_Controller {
 			}
 
 			$this->banner->updateBanner($id, $data);
-			$this->session->set_flashdata('success', 'Banner succesfully updated.');
+			$this->session->set_flashdata('success', 'BANNER SUCCESSFULLY UPDATED!');
 
 			redirect(base_url('banner'));
 		}
@@ -100,7 +100,7 @@ class Banner extends CI_Controller {
 		$banner = $this->banner->getBannerById(($id));
 		unlink('images/banner/' . $banner['image']);
 		$this->banner->deleteBanner($id);
-		$this->session->set_flashdata('success', 'Banner succesfully deleted.');
+		$this->session->set_flashdata('success', 'BANNER SUCCESSFULLY DELETED!');
 
 		redirect(base_url('banner'));
 	}

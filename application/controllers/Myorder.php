@@ -68,7 +68,7 @@ class Myorder extends CI_Controller {
 	
 				$this->myorder->insertPaymentConfirm($data);
 				$this->myorder->updateStatus($data['orders_id']);
-				$this->session->set_flashdata('success', 'Data saved successfully !.');
+				$this->session->set_flashdata('success', 'DATA SAVED!');
 	
 				redirect(base_url('myorder'));
 			}
