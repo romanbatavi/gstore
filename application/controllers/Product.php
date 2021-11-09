@@ -54,7 +54,7 @@ class Product extends CI_Controller {
 			}
 
 			$this->product->insertProduct($data);
-			$this->session->set_flashdata('success', 'Game succesfully added.');
+			$this->session->set_flashdata('success', 'GAME SUCCESFULLY ADDED!');
 
 			redirect(base_url('product'));
 		}
@@ -105,7 +105,7 @@ class Product extends CI_Controller {
 			}
 
 			$this->product->updateProduct($id, $data);
-			$this->session->set_flashdata('success', 'Game succesfully updated.');
+			$this->session->set_flashdata('success', 'GAME SUCCESFULLY UPDATED!');
 
 			redirect(base_url('product'));
 		}
@@ -115,7 +115,7 @@ class Product extends CI_Controller {
 		$produk = $this->product->getProduct(($id));
 		unlink('images/game/' . $produk['image']);
 		$this->product->deleteProduct($id);
-		$this->session->set_flashdata('success', 'Game succesfully deleted.');
+		$this->session->set_flashdata('success', 'GAME SUCCESFULLY DELETED!');
 
 		redirect(base_url('product'));
 	}
